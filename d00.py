@@ -1,16 +1,18 @@
+import re
+
 test = """"""
 
-val = [,]  # len determines if part 1/2
+val = []  # validation value for example, paste from puzzle page, len determines if part 1/2
 
 match len(val):
     case 1:
-        def s(d):
-            lns = [i.split(" ") for i in d.split("\n")]
+        def solution(d):
+            lns = [ln.split(" ") for ln in d.split("\n")]
     
             
     
-            a = sum(ln for ln in lns)
-            return a
+            answer = sum(ln for ln in lns)
+            return answer
     case 2:
-        def s(d):
-            
+        def solution(d):
+            pass
