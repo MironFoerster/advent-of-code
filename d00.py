@@ -1,4 +1,5 @@
-import re
+import re, math
+import functools as ft
 
 test = """"""
 
